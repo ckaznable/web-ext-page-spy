@@ -43,6 +43,6 @@
   },
   "homepage": "https://github.com/ckaznable/web-ext-msg-passing-example#readme",
   "dependencies": {
-    "web-ext-page-spy": "../"
+    "web-ext-page-spy": "^1.0.0"
   }
 }
