@@ -1,0 +1,30 @@
+{
+  "name": "web-ext-page-spy",
+  "version": "1.0.0",
+  "description": "web extension page script spy",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckaznable/web-ext-page-spy.git"
+  },
+  "keywords": [
+    "web-extension",
+    "chrome-extension"
+  ],
+  "author": "CK Aznable <kami25565@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckaznable/web-ext-page-spy/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/ckaznable/web-ext-page-spy#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.193",
+    "typescript": "^4.7.4"
+  }
+}

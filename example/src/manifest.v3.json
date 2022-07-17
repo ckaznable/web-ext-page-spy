@@ -1,0 +1,24 @@
+{
+  "background": {
+    "service_worker": "script/background.js"
+  },
+  "action": {
+    "default_icon": "icons/icon-128.png",
+    "default_popup": "options.html"
+  },
+  "content_security_policy": {
+    "script-src": "self",
+    "object-src": "self"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "https://www.google.com/"
+  ],
+  "manifest_version": 3,
+  "web_accessible_resources": [
+    {
+      "resources": ["script/inject.js"],
+      "matches": [ "https://www.google.com/*" ]
+    }
+  ]
+}
